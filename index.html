@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Saran S P | Snowflake Data Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Google Font (optional). If it doesn't load for you, you can delete this line -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Saran<span>.</span></a>
+
+      <nav class="site-nav" id="site-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Work</a>
+        <a href="#ideas">Ideas</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="section hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-kicker">Snowflake • Data Engineering • ETL</p>
+          <h1>Hi, I'm <span>Saran</span></h1>
+          <h2>Snowflake Data Engineer</h2>
+          <p class="hero-description">
+            I design and build scalable data pipelines, Snowflake ingestion frameworks,
+            and analytics-ready data models that power decision making.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn primary">View Work</a>
+            <a href="#contact" class="btn ghost">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h3>Current Focus</h3>
+          <ul>
+            <li>Snowflake data ingestion & streams/tasks</li>
+            <li>Performance tuning & cost optimization</li>
+            <li>End-to-end ETL / ELT design</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div>
+          <h2 class="section-title">About</h2>
+          <p>
+            I'm a Data Engineer specializing in Snowflake-based data platforms.
+            I work on designing ingestion patterns, building robust pipelines,
+            and making data reliable and easy to consume.
+          </p>
+          <p>
+            I enjoy solving tricky data problems, understanding business logic,
+            and turning raw data into something meaningful for analytics and reporting.
+          </p>
+        </div>
+
+        <div class="highlight-card">
+          <h3>Quick Facts</h3>
+          <ul>
+            <li>Strong hands-on experience with Snowflake</li>
+            <li>Experience with Oracle / Teradata / HANA as sources</li>
+            <li>Working with DEV / STAGE / PROD environments</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="grid skills-grid">
+          <div class="card">
+            <h3>Data Engineering</h3>
+            <ul>
+              <li>Snowflake Architecture</li>
+              <li>Streams & Tasks</li>
+              <li>Zero-Copy Clone, Time Travel</li>
+              <li>Ingestion Frameworks</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Databases & SQL</h3>
+            <ul>
+              <li>Snowflake SQL</li>
+              <li>Oracle / Teradata / HANA</li>
+              <li>CTEs & Window Functions</li>
+              <li>Query Optimization</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Tools & Others</h3>
+            <ul>
+              <li>ETL / ELT Design</li>
+              <li>Version Control (Git)</li>
+              <li>Agile & Collaboration</li>
+              <li>Monitoring & Logging</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work / Projects -->
+    <section id="work" class="section">
+      <div class="container">
+        <h2 class="section-title">Work & Projects</h2>
+
+        <div class="grid work-grid">
+          <article class="card">
+            <h3>Enterprise Snowflake Ingestion</h3>
+            <p>
+              Built and maintained central ingestion flows to Snowflake BR schemas
+              from Oracle, Teradata, and HANA with full and incremental patterns.
+            </p>
+            <p class="tags">Snowflake · Oracle · Teradata · HANA · ETL</p>
+          </article>
+
+          <article class="card">
+            <h3>Cost-Optimized Snowflake Platform</h3>
+            <p>
+              Implemented Zero-Copy Clone and Time Travel strategies, improving
+              data accessibility while reducing compute and storage overhead.
+            </p>
+            <p class="tags">Snowflake · Optimization · Governance</p>
+          </article>
+
+          <article class="card">
+            <h3>Performance-Tuned Analytics Layer</h3>
+            <p>
+              Designed analytics-ready models and tuned complex SQL queries with
+              CTEs and window functions, improving performance significantly.
+            </p>
+            <p class="tags">SQL · Modeling · Performance</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ideas -->
+    <section id="ideas" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Ideas & Notes</h2>
+        <p class="section-intro">
+          A few topics I’m exploring and writing about. You can later convert these
+          into blog posts or links.
+        </p>
+
+        <div class="grid ideas-grid">
+          <article class="card">
+            <h3>Designing a Robust Ingestion Strategy</h3>
+            <p>
+              Thoughts on choosing between full and incremental loads, and how to
+              structure ingestion to scale for multiple source systems.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Snowflake Streams & Tasks in Real Projects</h3>
+            <p>
+              Practical patterns to orchestrate CDC and scheduled jobs without
+              overcomplicating the architecture.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Balancing Cost vs. Performance</h3>
+            <p>
+              Notes on warehouse sizing, query optimization, and data retention
+              for efficient Snowflake usage.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container two-column">
+        <div>
+          <h2 class="section-title">Contact</h2>
+          <p>
+            Open to roles in Data Engineering and Snowflake development.
+            Feel free to reach out for opportunities or collaboration.
+          </p>
+          <ul class="contact-list">
+            <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+            <li>LinkedIn: <a href="#" target="_blank">linkedin.com/in/yourprofile</a></li>
+            <li>GitHub: <a href="#" target="_blank">github.com/yourgithub</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" onsubmit="return false;">
+          <label>
+            Name
+            <input type="text" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea rows="4" placeholder="Tell me about your project..." required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send (placeholder)</button>
+          <p class="form-note">
+            This is a front-end only form. You can later connect it to a backend or a service.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Saran S P. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const navToggle = document.getElementById("nav-toggle");
+    const siteNav = document.getElementById("site-nav");
+
+    navToggle.addEventListener("click", () => {
+      siteNav.classList.toggle("nav-open");
+    });
+
+    // Close nav on link click (mobile)
+    siteNav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        siteNav.classList.remove("nav-open");
+      });
+    });
+
+    // Dynamic year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
